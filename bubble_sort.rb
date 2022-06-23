@@ -1,4 +1,5 @@
 def bubble_sort!(numberArray)
+    #subtract by two since we'll go to one index short of the end, and compare that to the last
     sortedIndex = numberArray.length - 2
 
     while sortedIndex > 0
